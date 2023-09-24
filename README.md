@@ -1,3 +1,79 @@
+
+# Meet and Sell UI Design in React
+
+photos of the design are located in the public folder under Meet and Sell
+
+Welcome to the Meet and Sell UI design project, created by Don Miller. This project showcases a user-friendly user interface built with React, designed for an online marketplace. Whether you're a developer looking to integrate this UI into your project or simply interested in exploring the design, this README will guide you through the key features and components of this project.
+
+## Screenshots
+
+To give you a quick preview of the design, here are three different background variants of the Meet and Sell UI:
+
+
+These background variants are controlled through comments in the `index.html` file, allowing you to easily switch between them based on your preferences.
+
+## Image Credits
+
+All the images used for the items being sold in the UI are sourced from Pixabay, a platform for high-quality, free stock photos. We appreciate their contribution to this project, and you can find these images on Pixabay's website for your own use.
+
+## Favicon
+
+The favicon used in this project was originally created by a logo generator. It serves as a distinctive icon representing Meet and Sell. Feel free to replace it with your own favicon to personalize your project further.
+
+## Built With
+
+This UI design was created using the following technologies and libraries:
+
+- **React**: The project is built with React, a popular JavaScript library for building user interfaces.
+
+- **Bootstrap React**: The navigation bar and cards in this design are implemented using Bootstrap React components. Bootstrap simplifies the process of creating responsive and attractive UI elements.
+
+## Getting Started
+
+To get started with this UI design, follow these steps:
+
+1. Clone this repository to your local machine.
+   
+   ```shell
+   git clone https://github.com/DonMiller9294/meetandsell.git
+   ```
+
+2. Navigate to the project directory.
+
+   ```shell
+   cd meet-and-sell-ui
+   ```
+
+3. Install the required dependencies.
+
+   ```shell
+   npm install
+   ```
+
+4. Start the development server.
+
+   ```shell
+   npm start
+   ```
+
+Now, you can access the Meet and Sell UI in your browser at `http://localhost:3000`. Feel free to explore and customize the design to fit your project's needs.
+
+## Contribution
+
+If you'd like to contribute to this project or report any issues, please check the [Contributing Guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for checking out the Meet and Sell UI design in React! If you have any questions or feedback, please don't hesitate to reach out.
+
+Happy coding! 🚀🛒
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
