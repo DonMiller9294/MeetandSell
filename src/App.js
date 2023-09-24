@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import TheNav from "./TheNav";
+import Electron from "./Electron";
+import Smartwatch from "./Smartwatch";
+import Tablet from "./Tablet";
+import Earphone from "./Earphone";
+import Purse from "./Purse";
+import Shoes from "./Shoes";
+import Helmet from "./Helmet";
+import Keyboard from "./Keyboard";
+import Fender from "./Fender";
+import Chairs from "./Chairs";
+import BabyGear from "./BabyGear";
+import PowerDrill from "./PowerDrill";
+import Introduction from "./Introduction";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<TheNav />
+			<Introduction />
+			<Electron /> <Smartwatch /> <Tablet />
+			<Earphone />
+			<Purse />
+			<Shoes />
+			<Helmet />
+			<Keyboard />
+			<Fender />
+			<Chairs />
+			<BabyGear />
+			<PowerDrill />
+		</div>
+	);
 }
 
 export default App;
